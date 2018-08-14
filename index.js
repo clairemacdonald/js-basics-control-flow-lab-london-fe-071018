@@ -26,15 +26,13 @@ return (location ==='NYC' ? "Ok, sounds good." : "No go.");
 }
 
 
-function switchOnCharmFromTip(generosity) {
+function switchOnCharmFromTip(tip) {
   
-  
-
-switch (generosity) {
+  switch (tip) {
   case 'generous':
-    message = "Thank you so much.";
+    message = ("Thank you so much.");
     break;
-  case 'not as generous':
+  case ('not as generous'):
     message = "Thank you.";
     break;
 default: 
